@@ -1,0 +1,96 @@
+<h1>Prayers#our_father</h1>
+<p>Find me in app/views/prayers/our_father.html.erb</p>
+<h1>Отче наш на церковнославянском</h1>
+<p><%= @prayer %></p>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Gradient Square</title>
+    <style>
+        .square {
+            width: 100px; /* Задаем ширину */
+            height: 100px; /* Задаем высоту для создания квадрата */
+            border: 2px solid black; /* Рамка вокруг квадрата */
+            background-image: linear-gradient(to right, #0575E6, #00F260); /* Градиентная заливка */
+            display: flex; /* Используем flexbox для центрирования содержимого */
+            align-items: center; /* Центрирование содержимого по вертикали */
+            justify-content: center; /* Центрирование содержимого по горизонтали */
+        }
+    </style>
+</head>
+<body>
+
+<div class="square">
+    <!-- Здесь можно добавить содержимое внутри квадрата, если нужно -->
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Square Layout</title>
+    <style>
+        .container {
+            display: flex; /* Применяем flexbox для контейнера */
+            justify-content: center; /* Центрируем элементы горизонтально */
+            align-items: center; /* Центрируем элементы вертикально */
+            height: 100vh; /* Задаем высоту контейнера, чтобы он занимал всю высоту экрана */
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000; /* Черная рамка */
+            background-image: linear-gradient(to right, #0575E6, #00F260); /* Градиентная заливка */
+            margin: 20px; /* Добавляем немного места вокруг квадрата */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="square"></div> <!-- Квадрат с градиентной заливкой и рамкой -->
+</div>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Horizontal Square Layout with Text</title>
+    <style>
+        .container {
+            display: flex; 
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .square {
+            width: 100px;
+            height: 100px;
+            border: 2px solid #000; /* Черная рамка */
+            background-image: linear-gradient(to right, #0575E6, #00F260); /* Градиентная заливка */
+            margin: 20px; /* Отступы вокруг квадрата */
+            position: relative; /* Для абсолютного позиционирования текста внутри */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 24px; /* Размер шрифта */
+            color: #fff; /* Цвет текста */
+        }
+        /* Стилизация текста */
+        .text {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="square">
+        <div class="text">Lös</div> <!-- Текст с модифицированным символом -->
+    </div>
+</div>
+
+</body>
+</html>
